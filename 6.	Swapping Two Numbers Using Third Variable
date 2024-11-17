@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int var1,var2,t;
+printf("Enter var1 = %d",var1);
+scanf("%d",&var1);
+printf("\n Enter var2 = %d",var2);
+scanf("%d",&var2);
+
+printf("Before swapping \n 1st number = %d \n 2nd number = %d",var1,var2);
+t = var1;
+var1 = var2;
+var2 = t;
+printf("\n After swapping \n 1st number = %d \n 2nd number = %d",var1,var2);
+return 0;
+}
